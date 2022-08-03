@@ -228,3 +228,68 @@
     width:305px;
     height:40px;
    }
+   .footer-bg{
+    background: var(--Blue);
+   }
+   .footer-content{
+    text-align:start;
+    padding-top:65px;
+    padding-bottom: 42px;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+   }
+   .footer-logo{
+    fill:var(--White);
+   }
+   .contact-info{
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+   }
+   a{
+    text-decoration: none;
+   }
+   .tel-number{
+    color:var(--White);
+   }
+   .phone-logo{
+    margin-right: 20px;
+    margin-bottom:-4px
+   }
+   .fylo-mail{
+    display:block;
+    color:var(--White);
+    margin-top:16px;
+   }
+   .email-logo{
+    margin-right: 19px;
+    margin-bottom:-4px
+   }
+   .footer-links,
+   .footer-links-2{
+    margin-top:32px;
+   }
+
+   .footer-link{
+    color:var(--White);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display:block;
+    margin-top:16px;
+   }
+   .footer-link:hover{
+    color:var(--L-blue);
+   }
+   .social-icons{
+    margin-top:32px;
+    text-align: center;
+   }
+   .s-icon{
+    margin-right:10px;
+   }
+   .round-icon:hover{
+    filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
+   }
+   
