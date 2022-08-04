@@ -223,7 +223,6 @@
     font-size: 14px;
     line-height: 21px;
     max-width: 80%;
-    margin-left: 0;
    }
    #purple-bg-email{
     margin-top:24px;
@@ -443,6 +442,7 @@
             font-size: 16px;
             line-height: 24px;
             letter-spacing: 0.5px;
+            margin-left:0;
         }
         #purple-bg-email{
             margin:0;
