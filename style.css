@@ -360,12 +360,13 @@
         #emailAddress{
             width:320px;
             height:45px;
+            margin-right: 16px;
         }
         .submit{
             width:200px;
             height:45px;
             display:inline-block;
-            margin-left:16px;
+            margin-left:0;
         }
         .flex{
             display: flex;
