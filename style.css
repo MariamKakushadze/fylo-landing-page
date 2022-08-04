@@ -315,10 +315,10 @@
    @media only screen and (min-width: 1300px){
         .container{
             padding:0 80px;
-            max-width:2000px;
+            max-width:1300px;
         }
         .header{
-            margin-top:70px;
+            margin-top:60px;
         }
         .logo{
             width:166px;
@@ -329,12 +329,13 @@
             padding-left:50px;
         }
         .first{
-            margin-top:160px;
+            margin-top:130px;
             display:flex;
             flex-direction:row-reverse;
         }
         .main-photo{
-            max-width:50%;
+            max-width:44%;
+            margin-top: -50px;
         }
         .textbox{
             text-align: start;
@@ -348,6 +349,8 @@
             font-size: 17px;
             line-height: 24px;
             letter-spacing: 0.53125px;
+            max-width: 80%;
+            margin-left: 0;
         }
         #emailAddress{
             width:320px;
