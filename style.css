@@ -292,6 +292,25 @@
    .round-icon:hover{
     filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
    }
+   #mail-error{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #EF4877;
+   }
+   #white-mail-error{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color:white;
+    margin:0;
+   }
 
    @media only screen and (min-width: 1300px){
         .container{

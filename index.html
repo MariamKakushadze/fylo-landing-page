@@ -24,8 +24,9 @@
                 <h1>All your files in one secure location, accessible anywhere.</h1>
                 <p class="first-p">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
              <form action="" class="email-input white-bg">
-                <input type="email" id="emailAddress" placeholder="Enter your email..." required multiple>
+                <input type="email" id="emailAddress" placeholder="Enter your email..." oninput="return mailVal()">
                 <input type="submit" id="submit" value="Get Started">
+                <br><span id="mail-error"></span>
             </form>
             </div>
         </section>
@@ -60,8 +61,10 @@
                 <p class="purple-bg-p">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
              </div>
                 <form action="" class="email-input purple-bg">
-                    <input type="email" id="purple-bg-email" placeholder="email@example.com" required multiple>
+                    <input type="email" id="purple-bg-email" placeholder="email@example.com" onchange="return WmailVal()">
+                    <br><span id="white-mail-error"></span>
                     <input type="submit" id="submit"class="purple-submit" value="Get Started For Free">
+                    
                 </form>
             </div>
         </section>
